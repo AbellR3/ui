@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 
-CHROME_URL = "http://localhost:4444/wd/hub"
+CHROME_URL = "http://0.0.0.0:4444/wd/hub"
 
 @pytest.fixture(scope='session')
 def browser(request):
